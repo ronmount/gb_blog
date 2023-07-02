@@ -14,84 +14,90 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Стили проекта -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
     <title>Сайт Матвея | Главная</title>
 </head>
 
 <body class="d-flex flex-column">
-    <div class="content flex-grow-1">
-        <div class="top">
-            <div class="container d-flex flex-column h-100">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="./pictures/logo.png" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" href="index.html">Обо мне</a>
-                            <a class="nav-link" href="blog.html">Блог</a>
-                            <a class="nav-link" href="contacts.html">Контакты</a>
-                        </div>
+
+
+<div class="content flex-grow-1">
+    <div class="top">
+        <div class="container d-flex flex-column h-100">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="./pictures/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="index.html">Обо мне</a>
+                        <a class="nav-link" href="blog.html">Блог</a>
+                        <a class="nav-link" href="contacts.html">Контакты</a>
                     </div>
-                </nav>
-                <div class="d-flex flex-column justify-content-center flex-grow-1">
-                    <h1>Привет!</h1>
-                    <h1>Меня зовут Матвей</h1>
-                    <p class="top__text">Добро пожаловать на мою страницу</p>
                 </div>
+            </nav>
+            <div class="d-flex flex-column justify-content-center flex-grow-1">
+                <h1>Привет!</h1>
+                <h1>Меня зовут Матвей</h1>
+                <p class="top__text">Добро пожаловать на мою страницу</p>
             </div>
         </div>
-        <div class="about" id="about">
-            <div class="container">
-                <div class="row about d-flex justify-content-center align-items-center">
-                    <div class="col-md-4 d-flex justify-content-center align-items-center">
-                        <img class="w-75" src="./pictures/about-photo.png" alt="my photo">
-                    </div>
-                    <div class="col-md-5">
-                        <h2 class="heading">Еще раз привет!</h2>
-                        <p class="text">Я начинающий разработчик на Python и это мой первый сайт. Я живу и учусь в
-                            Москве,
-                            в свободное время играю в компьютерные игры и гуляю с друзьями.</p>
-                    </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row about d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="w-75" src="./pictures/about-photo.png" alt="my photo">
                 </div>
-            </div>
-        </div>
-        <div class="container why">
-            <h2 class="heading text-center mb-3">Почему мне нравится<br>программировать?</h2>
-            <div class="row text-center">
-                <div class="col-md-4 d-flex flex-column justify-content-end">
-                    <div class="card">
-                        <img src="./pictures/blog-1.svg" alt="photo">
-                        <div class="card-box">
-                            <p class="card-text pl-5 pr-5 mt-3">С помощью программирования я могу создавать полезные
-                                сайты и делать мир
-                                удобнее.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex flex-column justify-content-end">
-                    <div class="card">
-                        <img src="./pictures/blog-2.svg" alt="photo">
-                        <div class="card-box">
-                            <p class="card-text pl-5 pr-5 mt-3">В программировании много интересных задач, никогда не соскучишься!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex flex-column justify-content-end">
-                    <div class="card">
-                        <img src="./pictures/blog-3.svg" alt="photo">
-                        <div class="card-box">
-                            <p class="card-text pl-5 pr-5 mt-3">В программировании ты сразу видишь результат своих усилий.</p>
-                        </div>
-                    </div>
+                <div class="col-md-5">
+                    <h2 class="heading">Еще раз привет!</h2>
+                    <p class="text">Я начинающий разработчик на Python и это мой первый сайт. Я живу и учусь в
+                        Москве,
+                        в свободное время играю в компьютерные игры и гуляю с друзьями.</p>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
+    <div class="container why">
+        <h2 class="heading text-center mb-3">Почему мне нравится<br>программировать?</h2>
+        <div class="row text-center">
+
+            <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="./pictures/blog-1.svg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">С помощью программирования я могу создавать полезные сайты и делать мир удобнее.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="./pictures/blog-2.svg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">В программировании много интересных задач, никогда не соскучишься!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="./pictures/blog-3.svg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">В программировании ты сразу видишь результат своих усилий.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
         <div class="container d-flex justify-content-between flex-wrap">
             <a href="https://geekbrains.ru/"><img src="./pictures/logo.svg" alt="logo"></a>
             <div class="icons">
